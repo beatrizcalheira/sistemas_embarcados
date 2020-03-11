@@ -16,7 +16,7 @@ Shell é a interface de comandos. Permite a comunicação entre o usuário e o s
 Denominado Root. Possui o UID igual a 0. Através dele é possível fazer qualquer coisa com o sistema operacional, por exemplo, remover ou adicionar privilégios de impressão para determinados usuários, remover todos os diretórios do sistemas e etc.
 
 **5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?**
-Seta para baixo (DOWN)  TAB
+Tecla TAB.
 
 **6. Quais botões do teclado apresentam instruções escritas anteriormente?**
 
@@ -24,11 +24,11 @@ Seta para baixo (DOWN)  TAB
 
 - (a) Obter mais informações sobre um comando. 
 
-whatis
+man <comando>
 
 - (b) Apresentar uma lista com os arquivos dentro de uma pasta. 
 
-ls
+ls <pasta>
 
 - (c) Apresentar o caminho completo da pasta. 
 
@@ -37,17 +37,59 @@ pwd
 - (d) Trocar de pasta. 
 - (e) Criar uma pasta. 
 - (f) Apagar arquivos definitivamente. 
+
+rm <arquivo>
+
 - (g) Apagar pastas definitivamente. 
+
+rm <pasta/> 
+
 - (h) Copiar arquivos. 
+
+cp 
+
 - (i) Copiar pastas. 
+
+cp
+
 - (j) Mover arquivos. 
+
+mv <arquivo> <destino>  (se for pasta, final "/")
+  
+
 - (k) Mover pastas. 
+
+mv <pasta/> <pasta/>
+
 - (l) Renomear pastas. 
+
+mv <nome atual> <novo nome>
+  
 - (m) Apresentar o conteúdo de um arquivo. 
+
+cat <arquivo.formato>
+
 - (n) Apresentar o tipo de um arquivo. 
 - (o) Limpar a tela do terminal. 
+
+clear
+
 - (p) Encontrar ocorrências de palavras-chave em um arquivo-texto. 
+
+grep <"palavra chave"> <arquivo>
+  
 - (q) Ordenar informações em um arquivo-texto. 
 - (r) Substituir ocorrências de palavras-chave em um arquivo-texto. 
 - (s) Conferir se dois arquivos são iguais. 
 - (t) Escrever algo na tela.
+
+**Notas:**
+
+Permissões: ls -l
+ex: chmod <numero>
+    reasd
+  
+ > : apaga e coloca no arquivo
+ >> : adiciona ao arquivo (concatena)
+ 
+ | : saida vertical 
