@@ -20,6 +20,8 @@ Tecla TAB.
 
 **6. Quais botões do teclado apresentam instruções escritas anteriormente?**
 
+ctrl s (???)
+
 **7. Apresente os respectivos comandos no terminal para:** 
 
 - (a) Obter mais informações sobre um comando. 
@@ -93,3 +95,5 @@ ex: chmod <numero>
  >> : adiciona ao arquivo (concatena)
  
  | : saida vertical 
+
+; : comandos sequenciais
