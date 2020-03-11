@@ -16,18 +16,24 @@ Shell é a interface de comandos. Permite a comunicação entre o usuário e o s
 Denominado Root. Possui o UID igual a 0. Através dele é possível fazer qualquer coisa com o sistema operacional, por exemplo, remover ou adicionar privilégios de impressão para determinados usuários, remover todos os diretórios do sistemas e etc.
 
 **5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?**
-Seta para baixo (DOWN) 
+Seta para baixo (DOWN)  TAB
 
 **6. Quais botões do teclado apresentam instruções escritas anteriormente?**
 
 **7. Apresente os respectivos comandos no terminal para:** 
 
 - (a) Obter mais informações sobre um comando. 
+
 whatis
+
 - (b) Apresentar uma lista com os arquivos dentro de uma pasta. 
+
 ls
+
 - (c) Apresentar o caminho completo da pasta. 
+
 pwd
+
 - (d) Trocar de pasta. 
 - (e) Criar uma pasta. 
 - (f) Apagar arquivos definitivamente. 
