@@ -1,4 +1,4 @@
-** 1. Por que o Linux recebeu esse nome?
+** 1. Por que o Linux recebeu esse nome? **
 
 ** 2. O que são daemons?
 
