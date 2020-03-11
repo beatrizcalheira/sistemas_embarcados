@@ -23,8 +23,11 @@ Seta para baixo (DOWN)
 **7. Apresente os respectivos comandos no terminal para:** 
 
 - (a) Obter mais informações sobre um comando. 
+whatis
 - (b) Apresentar uma lista com os arquivos dentro de uma pasta. 
+ls
 - (c) Apresentar o caminho completo da pasta. 
+pwd
 - (d) Trocar de pasta. 
 - (e) Criar uma pasta. 
 - (f) Apagar arquivos definitivamente. 
