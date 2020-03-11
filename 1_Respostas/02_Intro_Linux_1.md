@@ -85,6 +85,8 @@ grep <"palavra chave"> <arquivo>
 - (s) Conferir se dois arquivos são iguais. 
 - (t) Escrever algo na tela.
 
+echo 
+
 **Notas:**
 
 Permissões: ls -l
@@ -97,3 +99,7 @@ ex: chmod <numero>
  | : saida vertical 
 
 ; : comandos sequenciais
+
+ps : todos os comandos que estão sendo executados no terminal
+
+kill : interrompe um processo
